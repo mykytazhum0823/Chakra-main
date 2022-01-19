@@ -1,0 +1,16 @@
+@media not screen and (min-width: 400px) {
+  body {
+    /* background-color: #150f1a; */
+    overflow: hidden;
+  }
+}
+
+#profilePic {
+  width: 55px;
+  position: absolute;
+  left: 0px;
+  top: -10px;
+  height: 65px;
+  cursor: pointer;
+  opacity: 0;
+}
