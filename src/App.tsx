@@ -22,11 +22,11 @@ export default function App() {
         {/* <ThemeToggler /> */}
         <Router>
           <Routes>
-            <Route key="router-first" path="/" element={<First />} />
+            <Route key="router-first" path="/first" element={<First />} />
             <Route key="router-login" path="/login" element={<Login />} />
             <Route key="router-signup" path="/signup" element={<Sign />} />
             <Route path="/second" element={<Second />} />
-            <Route path="/upload" element={<Upload />} />
+            <Route path="/" element={<Upload />} />
           </Routes>
         </Router>
       </ColorModeProvider>

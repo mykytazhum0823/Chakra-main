@@ -27,12 +27,7 @@
 .App-link {
   color: #61dafb;
 }
-.transform-component-module_wrapper__1_Fgj{
-  opacity: 0.75;
-  border-radius: 14px !important;
-  max-width: 390px;
-  max-height: 487px;
-}
+
 
 @keyframes App-logo-spin {
   from {
@@ -41,4 +36,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.transform-component-module_wrapper__1_Fgj{
+  opacity: 0.75;
+  border-radius: 14px !important;
+  max-width: 390px;
+  max-height: 487px;
+}
+
+@font-face{
+  font-family: 'Proxima Nova';
+  src:local('Proxima Nova'), url('./assets/font/ProximaNovaFont.otf') format('opentype');
 }
